@@ -6,25 +6,25 @@
  * telegram: @pootsar
  * GitHub: pootsarBy
 
- ## *Summary*
+## *Summary*
 I work in the fire Department and I want to make a difference in my life. I like web development and I would like to develop in this direction, to study existing technologies and to master new ones.
 
- ## *Skills*
+## *Skills*
  * HTML5 (basic skills)
  * CSS (basic skills)
  * JavaScrypt (basic skills)
  * C# (basic skills)
  * SQL (basic skills)
 
- ## *Code examples* 
+## *Code examples* 
 
 
- ## *Experience* 
+## *Experience* 
 During my studies I had several coursework and two diploma projects. All work was performed in different programming languages, depending on the requirements. The latest development was the diploma project made for the Department of educational systems design of the Republican Institute of higher education.This software tool is used to test soft skills of students.
 
 I don't have any experience in production.
 
- ## *Education*
+## *Education*
 
  * Minsk State Higher Radio Engineering College (technician-programmer)
  * Belarusian State University of Informatics adn Radioelectronics (teacher-programmer)
