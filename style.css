@@ -1,118 +1,103 @@
 body {
   background: rgba(226, 226, 226, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(226, 226, 226, 1) 0%,
-    rgba(219, 219, 219, 1) 27%,
-    rgba(254, 254, 254, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(226, 226, 226, 1)),
-    color-stop(27%, rgba(219, 219, 219, 1)),
-    color-stop(100%, rgba(254, 254, 254, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(226, 226, 226, 1) 0%,
-    rgba(219, 219, 219, 1) 27%,
-    rgba(254, 254, 254, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(226, 226, 226, 1) 0%,
-    rgba(219, 219, 219, 1) 27%,
-    rgba(254, 254, 254, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(226, 226, 226, 1) 0%,
-    rgba(219, 219, 219, 1) 27%,
-    rgba(254, 254, 254, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(226, 226, 226, 1) 0%,
-    rgba(219, 219, 219, 1) 27%,
-    rgba(254, 254, 254, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+  background: -moz-linear-gradient(top ,rgba(226, 226, 226, 1) 0%,rgba(219, 219, 219, 1) 27%,rgba(254, 254, 254, 1) 100%);
+  background:-webkit-gradient(left top, left bottom,color-stop(0%, rgba(226, 226, 226, 1)), color-stop(27%, rgba(219, 219, 219, 1)),color-stop(100%, rgba(254, 254, 254, 1)));
+  background:-webkit-linear-gradient(top,rgba(226, 226, 226, 1) 0%,rgba(219, 219, 219, 1) 27%,rgba(254, 254, 254, 1) 100%);
+  background:-o-linear-gradient(top,rgba(226, 226, 226, 1) 0%,rgba(219, 219, 219, 1) 27%,rgba(254, 254, 254, 1) 100%);
+  background:-ms-linear-gradient(top,rgba(226, 226, 226, 1) 0%,rgba(219, 219, 219, 1) 27%,rgba(254, 254, 254, 1) 100%);
+  background:linear-gradient(to bottom,rgba(226, 226, 226, 1) 0%,rgba(219, 219, 219, 1) 27%,rgba(254, 254, 254, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2e2e2", endColorstr="#fefefe", GradientType=0 );
 }
+
 .wrapper {
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
   width: 1024px;
   height: 100%;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   margin: 0 auto;
 }
+
 header {
   margin-top: 1%;
   font-family: "Anton" "Times new Roman" serif;
 }
+
 .selfie {
   display: block;
   width: 200px;
   height: 200px;
   margin: 3% auto;
-  border-radius: 50%;
+
   background-image: url("asests/img/photo.jpg");
   background-size: cover;
-  
-  
+  border-radius: 50%;
 }
-h1{
-  text-align: center;
+
+h1 {
   font-size: 1.7em;
-  
-}
-h2{
   text-align: center;
+}
+
+h2 {
+  font-weight: bold;
   font-size: 1.5em;
   font-family: "Josefin Sans" "Times new roman" serif;
-  font-weight: bold;
+  text-align: center;
 }
-.block {
+
+.content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 10px;
-  flex-wrap: wrap;
 }
+
 .summary,
 .experience,
 .education,
 .skills {
   width: 40%;
   margin-bottom: 5%;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+  text-align: center;
+
   background: rgb(207, 207, 207);
   border: 1px solid silver;
   border-radius: 5px;
-  text-align: center;
+  -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
-.education > ul,.skills > ul {
- list-style: none;
- padding: 0;
+.education > ul,
+.skills > ul {
+  padding: 0;
+
+  list-style: none;
 }
-progress{
+
+progress {
   width: 80%;
 }
 
 nav > ul {
   display: flex;
-  list-style: none;
   justify-content: space-around;
   padding: 0;
+
+  list-style: none;
 }
-a>img{
+
+a > img {
   height: 50px;
 }
 
 footer {
   margin-bottom: 10px;
+}
+
+.copy {
+  text-align: center;
 }
